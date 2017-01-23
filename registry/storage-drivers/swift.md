@@ -218,7 +218,6 @@ configuration file can specify the following optional parameters :
     <td>
     <p>
     Specify whether to use container secret key to generate temporary URL when set to true, or the account secret key otherwise.</p>
-    </p>
     </td>
 </tr>
 <tr>
@@ -227,7 +226,7 @@ configuration file can specify the following optional parameters :
     </td>
     <td>
     <p>
-    Array of HTTP methods that are supported by the TempURL middleware of the Swift server. Example:</p>
+    Array of HTTP methods that are supported by the TempURL middleware of the Swift server. Example:
     <code>
     - tempurlmethods:
       - GET
